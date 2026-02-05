@@ -36,7 +36,7 @@ function initMusic() {
     try {
         // Using a royalty-free instrumental track
         musicPlayer = new Howl({
-            src: ['https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'],
+            src: ['https://soundcloud.com/zoellx/la-vie-en-rose-acapella?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'],
             volume: 0.3,
             loop: true,
             onload: function() {
