@@ -36,7 +36,7 @@ function initMusic() {
     try {
         // Using a royalty-free instrumental track
         musicPlayer = new Howl({
-            src: ['https://archive.org/download/78_la-vie-en-rose-orchestre-dir-luypaerts-edith-piaf-edith-piaf/17251%20La%20vie%20en%20rose.mp3'],
+            src: ['https://dn721601.ca.archive.org/0/items/78_la-vie-en-rose_edith-piaf-m-david-louiguy-robert-chauvigny_gbia3025698a/LA%20VIE%20EN%20ROSE%20-%20EDITH%20PIAF%20-%20M.%20David%20-%20Louiguy.mp3'],
             volume: 0.3,
             loop: true,
             onload: function() {
