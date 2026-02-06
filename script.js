@@ -127,8 +127,8 @@ function displayNextMessage() {
         // Add the fade-in animation class
         loveMessageElement.style.animation = 'none';
         void loveMessageElement.offsetWidth; // Trigger reflow
-        loveMessageElement.style.animation = 'fadeInOut 1s ease-in-out';
-    }, 1000); // Match the duration of the fade-out animation
+        loveMessageElement.style.animation = 'fadeInOut 2s ease-in-out';
+    }, 2000); // Match the duration of the fade-out animation
 }
 
 // Function to create floating hearts
