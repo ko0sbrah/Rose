@@ -147,7 +147,7 @@ body {
   text-align: center;
   margin: 0;
   opacity: 0;
-  animation: fadeInOut 1s ease-in-out;
+  animation: fadeInOut 2s ease-in-out;
 }
 
 @keyframes fadeInOut {
@@ -218,7 +218,7 @@ body {
 
 /* Animations for Love Messages */
 .fade-out {
-  animation: fadeOut 1s ease-in-out forwards !important;
+  animation: fadeOut 2s ease-in-out forwards !important;
 }
 
 @keyframes fadeOut {
