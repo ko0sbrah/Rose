@@ -36,7 +36,7 @@ function initMusic() {
     try {
         // Using a royalty-free instrumental track
         musicPlayer = new Howl({
-            src: ['https://soundcloud.com/zoellx/la-vie-en-rose-acapella?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'],
+            src: ['https://archive.org/download/78_la-vie-en-rose-orchestre-dir-luypaerts-edith-piaf-edith-piaf/17251%20La%20vie%20en%20rose.mp3'],
             volume: 0.3,
             loop: true,
             onload: function() {
