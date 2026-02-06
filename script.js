@@ -43,9 +43,6 @@ function initMusic() {
                 console.log('Music loaded successfully');
                 // Auto-play music after user interaction (due to browser policies)
                 // We'll play it when the page loads but with a slight delay to ensure it works
-                setTimeout(() => {
-                    playMusic();
-                }, 1000);
             },
             onloaderror: function(id, err) {
                 console.error('Error loading music:', err);
